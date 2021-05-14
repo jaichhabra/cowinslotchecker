@@ -8,13 +8,13 @@
 // 5. Open the Console Tab on your Inspect window
 // 6. Copy paste the contents of this entire file - cowin_schedule_v2.js
 // 7. Press Enter
-// It will run every 10 seconds and check for availability of slots.
+// It will run every 10 seconds and check for availability of slots so running it for a long duration might not be a good option.
 
 // Config
 // ------
 
-var pincodes = ["248001", "248006", "248007", "248171", "248141" ];
-var dateArr = ["14-05-2021", "15-05-2021"];
+var pincodes = ["248001", "248006", "248007", "248171", "248141" ]; //enter your pincodes
+var dateArr = ["14-05-2021", "15-05-2021"]; //enter your preffered date
 var trialCounter = 1;
 
 const sleepNow = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
